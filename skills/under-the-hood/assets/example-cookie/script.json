@@ -1,0 +1,11 @@
+[
+  {"id": "title",  "gap": 0.35, "text": "Okay, so what actually happens when you type cookie into Google? Let's follow it."},
+  {"id": "dns",    "gap": 0.30, "text": "So the second you type that first letter, your browser's like, wait, where's Google? And it asks DNS, which is basically the internet's phone book."},
+  {"id": "tls",    "gap": 0.25, "text": "Then it sets up an encrypted connection, so nobody in between can see what you're typing."},
+  {"id": "typing", "gap": 0.30, "text": "And now every single letter you type? That's a tiny request. And the suggestions come right back."},
+  {"id": "enter",  "gap": 0.40, "text": "You hit Enter, and your search flies off to Google. Oh, and your cookies? Yeah, they tag along too. [chuckle]"},
+  {"id": "fanout", "gap": 0.25, "text": "Now, inside a data center, thousands of machines search their own little piece of the index, all at the same time."},
+  {"id": "rank",   "gap": 0.30, "text": "Then everything gets ranked. Relevance, quality, all that stuff. And the best results float to the top."},
+  {"id": "render", "gap": 0.45, "text": "And then the results fly back, and your browser draws the page."},
+  {"id": "end",    "gap": 0.00, "text": "All of that, in a fraction of a second. Pretty wild, right?"}
+]
