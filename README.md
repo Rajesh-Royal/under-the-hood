@@ -10,7 +10,11 @@
 </p>
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/Rajesh-Royal/under-the-hood/refs/heads/main/docs/demo.mp4" width="720" controls></video>
+  
+
+https://github.com/user-attachments/assets/d85ea4c8-d524-4651-ba58-6559028b8eb1
+
+
   <br>
   <sub>Made with this skill: what actually happens when you type "cookie" into Google. Turn the sound on. The narration is a cloned voice, generated locally.</sub>
 </p>
