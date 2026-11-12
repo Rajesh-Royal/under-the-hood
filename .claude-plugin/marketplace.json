@@ -1,0 +1,12 @@
+{
+  "name": "under-the-hood",
+  "description": "Animated tech explainer videos, made by Claude Code.",
+  "owner": { "name": "Rajesh Royal", "url": "https://github.com/Rajesh-Royal" },
+  "plugins": [
+    {
+      "name": "under-the-hood",
+      "source": "./",
+      "description": "Make animated, narrated tech explainer videos from a topic or your code."
+    }
+  ]
+}

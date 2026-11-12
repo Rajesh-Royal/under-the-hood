@@ -1,0 +1,20 @@
+# Allowlist. Only the paths below are ever committed. Everything else in this
+# folder (local voice data, TTS venvs, rendered projects, scratch) stays private.
+/*
+!/.gitignore
+!/.claude-plugin/
+!/skills/
+!/docs/
+!/README.md
+!/LICENSE
+
+# Never commit these, even inside allowed folders
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+.shots/
+*.wav
+*.mp4
+*.partial.mp4
+!/docs/demo.mp4

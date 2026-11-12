@@ -1,0 +1,20 @@
+{
+  "name": "under-the-hood",
+  "version": "0.1.0",
+  "description": "Make animated, narrated \"what actually happens when...\" tech explainer videos with Claude Code. Hand-drawn line art, local TTS, synced music and sound effects, rendered to 1080p MP4.",
+  "author": {
+    "name": "Rajesh Royal",
+    "url": "https://github.com/Rajesh-Royal"
+  },
+  "homepage": "https://github.com/Rajesh-Royal/under-the-hood",
+  "repository": "https://github.com/Rajesh-Royal/under-the-hood",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "explainer",
+    "animation",
+    "tts",
+    "education",
+    "skill"
+  ]
+}
