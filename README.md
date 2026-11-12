@@ -10,9 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/demo.mp4"><img src="docs/demo-poster.jpg" width="720" alt="Demo video: what actually happens when you type cookie into Google"></a>
-  <br>
-  <video src="https://github.com/Rajesh-Royal/under-the-hood/raw/main/docs/demo.mp4" poster="https://github.com/Rajesh-Royal/under-the-hood/raw/main/docs/demo-poster.jpg" width="720" controls></video>
+  <video src="https://raw.githubusercontent.com/Rajesh-Royal/under-the-hood/refs/heads/main/docs/demo.mp4" width="720" controls></video>
   <br>
   <sub>Made with this skill: what actually happens when you type "cookie" into Google. Turn the sound on. The narration is a cloned voice, generated locally.</sub>
 </p>
