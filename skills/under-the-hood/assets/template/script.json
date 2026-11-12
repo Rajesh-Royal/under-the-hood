@@ -1,0 +1,6 @@
+[
+  {"id": "title", "gap": 0.35, "text": "Okay, so what actually happens when you hit send? Let's follow it."},
+  {"id": "ask",   "gap": 0.30, "text": "Your app packs the message up and fires it off to a server."},
+  {"id": "reply", "gap": 0.40, "text": "The server saves it, and sends a quick reply back. Yep, got it."},
+  {"id": "end",   "gap": 0.00, "text": "And that's the whole trip. Pretty neat, right?"}
+]

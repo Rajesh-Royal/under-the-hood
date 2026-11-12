@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+  html,body{margin:0;height:100%;background:#1b1a17;color:#f5f0e6;font-family:system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+  .wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100%;padding:16px;box-sizing:border-box;gap:12px}
+  .stage{width:min(100%, calc((100vh - 150px) * 16 / 9))}
+  canvas{display:block;width:100%;aspect-ratio:16/9;border-radius:10px;box-shadow:0 12px 40px rgba(0,0,0,.45);background:#f5f0e6}
+  .bar{display:flex;align-items:center;gap:12px;margin-top:12px}
+  .bar button{background:#2c2a26;color:#f5f0e6;border:1px solid #45413a;border-radius:8px;padding:8px 14px;font-size:14px;cursor:pointer}
+  .bar button:hover{background:#38352f}
+  .bar input[type=range]{flex:1;accent-color:#2f6fde}
+  .time{font-variant-numeric:tabular-nums;font-size:14px;color:#bdb6aa;min-width:92px;text-align:right}
+  .chapters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .chapters button{background:transparent;color:#bdb6aa;border:1px solid #3a3731;border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer}
+  .chapters button.on{background:#2f6fde;border-color:#2f6fde;color:#fff}
+  .hint{font-size:12px;color:#7d776c;margin-top:8px}
+  body.rec{background:#f5f0e6}
+  body.rec .wrap{padding:0;display:block}
+  body.rec .stage{width:1920px}
+  body.rec canvas{width:1920px;height:1080px;border-radius:0;box-shadow:none}
+  body.rec .bar, body.rec .chapters, body.rec .hint{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="stage">
+    <canvas id="c" width="1920" height="1080"></canvas>
+    <div class="bar">
+      <button id="play">Pause</button>
+      <button id="restart">Restart</button>
+      <input id="scrub" type="range" min="0" max="1" step="0.001" value="0">
+      <span class="time" id="time">0.0 / 0.0s</span>
+    </div>
+    <div class="chapters" id="chapters"></div>
+    <div class="hint">Space to play or pause. Left and right arrows skip 2 seconds.</div>
+  </div>
+</div>
+<script src="timeline.js" onerror="void 0"></script>
+<script src="engine.js"></script>
+<script src="scenes.js"></script>
+</body>
+</html>
