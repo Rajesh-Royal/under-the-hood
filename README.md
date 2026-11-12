@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo-animated.svg" width="128" height="128" alt="under the hood logo">
+  <img src="docs/logo-animated.svg" width="220" alt="under the hood logo">
 </p>
 
 <h1 align="center">under the hood</h1>
